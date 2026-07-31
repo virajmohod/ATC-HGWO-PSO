@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Outputs
+outputs/
+
+# Figures
+graphs/
+
+# CSV
+*.csv
+
+# Excel
+*.xlsx
+
+# Latex Aux
+*.aux
+*.bbl
+*.blg
+*.lof
+*.lot
+*.toc
+*.out
+
+# Python cache
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
