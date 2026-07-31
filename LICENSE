@@ -19,3 +19,47 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
+---
+
+# File 2
+
+## `algorithms/proposed/__init__.py`
+
+Update this file.
+
+```python
+from .tent_map import TentChaoticMap
+
+from .adaptive_pso import AdaptivePSO
+
+from .adaptive_gwo import AdaptiveGWO
+
+from .elite_archive import EliteArchive
+
+from .diversity import DiversityController
+
+from .hybrid_update import HybridUpdate
+
+from .atc_hgwo_pso import ATCHGWOPSO
+
+
+__all__ = [
+
+    "TentChaoticMap",
+
+    "AdaptivePSO",
+
+    "AdaptiveGWO",
+
+    "EliteArchive",
+
+    "DiversityController",
+
+    "HybridUpdate",
+
+    "ATCHGWOPSO",
+
+]
